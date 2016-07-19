@@ -1,0 +1,80 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+select,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label[for="albums"],
+label[for="fave-song"] {
+  display: block;
+  margin: 30px 0 5px;
+}
+
+input {
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+  /*border: 2px solid orange #00ced1;*/
+  border: 2px solid orange;
+  /*background-color: #e0ffff;*/
+  background-color: wheat;
+}
+
+button {
+  background-color: #fff0f5;
+  font-weight: bold;
+  outline: 0;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+legend,
+#hint {
+  display: none;
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+
+  .newsletter {
+    text-align: right;
+  }
+}

@@ -1,0 +1,48 @@
+/* Tour page styles */
+
+pre {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+  display: inline-block;
+  margin: 0;
+}
+
+.pick{
+  width: 40px;
+  height: 0%;
+  padding: 10px;
+}
+
+table {
+	width: 100%;
+}
+
+table,
+tr,
+td, 
+th {
+	border: 1px solid #ffffe0;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+}
+
+th {
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+
+caption {
+	margin-bottom: 1em;
+}
+
+@media screen and (min-width: 840px) {
+	table {
+		width: 65%;
+	}
+}
